@@ -2,16 +2,22 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    background-image: url(bt21.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
+   
 }
 
 .container{
     height: 100%;
     width: 100%;
- 
+    background-image: url(bt21.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.form{
+    height: 450px;
+    width: 400px;
+    background: white;
+    margin: 7% auto;
+    position: relative;
 }
