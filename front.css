@@ -15,12 +15,53 @@
     position: absolute;
 }
 .form{
-    height: 450px;
-    width: 400px;
+    height: 350px;
+    width: 300px;
     background: white;
-    margin: 7% auto;
+    margin: 8% auto;
     position: relative;
- border: 1px solid #99bbff;
-    padding: 30px;
-    
+    padding:20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:-10px -10px 9px #ccddff;
+}
+h2{
+    margin: 10px;
+	font-size:40px;
+	color:rgb(88, 150, 221);
+	text-align: center;
+}
+
+p{
+    color:rgb(88, 150, 221);
+    margin-left: 15px;
+    padding:5px;
+    font-weight: bold;
+    font-size: larger;
+ }
+
+ input{
+	width:100%;
+	margin-bottom: 10px;
+
+}
+input[type="text"], input[type="password"], input[type="email"]{
+	border:none;
+	border-bottom: .5px solid #fff;
+	background: transparent; 
+	outline:none;
+	height:40px;
+	color: black;
+	font-size: 15px;
+}
+input[type="submit"]{
+	border:none;
+	outline:none;
+	background:#1a1aff;
+	font-size: 20px;
+	color:#fff;
+	border-radius: 30px;
+	font-weight: bold;
+
 }
