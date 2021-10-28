@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: sans-serif;
    
 }
 
@@ -14,13 +15,16 @@
     background-size: cover;
     position: absolute;
 }
-.form{
-    height: 350px;
-    width: 300px;
-    background: white;
-    margin: 8% auto;
-    position: relative;
-    padding:20px;
+.form, .signup-form{
+    background-color: rgba(0,0,0,0.55);
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -46%);
+	padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 15px;
     border-color:#d2d2d2;
     border-width: 5px;
@@ -32,6 +36,7 @@ h2{
 	color:rgb(88, 150, 221);
 	text-align: center;
 }
+
 
 p{
     color:rgb(88, 150, 221);
@@ -52,16 +57,26 @@ input[type="text"], input[type="password"], input[type="email"]{
 	background: transparent; 
 	outline:none;
 	height:40px;
-	color: black;
+	color: white;
 	font-size: 15px;
 }
 input[type="submit"]{
 	border:none;
 	outline:none;
-	background:#1a1aff;
+	background: rgb(88, 150, 221);;
 	font-size: 20px;
 	color:#fff;
-	border-radius: 30px;
+	border-radius: 35px;
 	font-weight: bold;
-
+    
+    
+}
+a{
+	text-decoration: none;
+	color:rgb(233, 12, 12);
+	font-size:18px;
+	line-height:15px;
+}
+a:hover{
+    color: white ;
 }
