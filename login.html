@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign up and login form</title>
     <link rel="stylesheet" href="front.css">
+    <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
     <div class="container">                                       
         <div class="form">                                        
             <h2>Login-Form</h2>
             
-        <form name="loginform">                                  
+        <form name="loginform" onsubmit="return login()">                                  
             <p>Enter the Username</p>
-            <input type="text" name="Username" placeholder="Enter Username">
+            <input type="text" name="username" placeholder="Enter Username">
 
             <p>Enter Password</p>
-            <input type="password" name="Password" placeholder="Enter the password">
+            <input type="password" name="password" placeholder="Enter the Password">
 
         <div id="errorbox"></div>
 

@@ -80,3 +80,9 @@ a{
 a:hover{
     color: white ;
 }
+
+#errorbox{
+	color: whitesmoke;
+	font-size: large;
+	padding: 10px;
+}
